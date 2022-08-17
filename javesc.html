@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>demo</title>
+        <body>
+            <h1 align="center">demo</h1>
+            <hr color="red">
+            <hr color="red">
+            
+        </body>
+        <style type="text/css">
+            body{background-color: aqua;}
+             div{
+                height: 190px;
+                width: 310px;
+                background-color: red;
+                text-align: center;
+                padding-top: 60px;
+             }
+             </style>
+    <script>
+    function internalalert()
+    {
+        alert(" hii i am badarpura ovesh")
+    }
+    function internalconfirm()
+    {
+        if(confirm("are you suer"))
+        {
+            alert("yesss")
+        }
+        else{
+            alert("noooo")
+        } 
+    } 
+    function internalprompt()
+    {
+        var fname=prompt("enter your first name")
+        var mname=prompt("enter youe middle name")
+        var lname=prompt("enter your last name")
+        prompt(fname+" "+mname+" "+lname);
+    }
+    </script>
+    <body>
+        <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit, officiis suscipit porro aliquid veritatis deleniti corrupti dolorum rerum laborum non quis nulla harum consequuntur eligendi numquam temporibus dolores? Saepe!
+        </div>
+        <hr color="red">
+        <hr color="pink">
+        <input type="button" value= "alert inline" onclick="alert('this is wrong')";>
+        <input type="button" value= "confirm" onclick="confirm('are you suer')";>  
+        <input type="button" value= "prompt" onclick="prompt('Enter your name')";>
+        <hr color="pink">
+        <hr color="red">
+        <input type="button" value= "alert internal" onclick=internalalert()>
+        <input type="button" value= "confirm internal" onclick=internalconfirm()>
+        <input type="button" value= "prompt internal" onclick=internalprompt()>
+        <hr color="red">
+        <hr color="pink">
+    </div>
+    </body>
+    </html>
